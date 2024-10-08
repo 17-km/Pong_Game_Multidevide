@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.943,=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.389,=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.850,=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.058,=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.536,=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024-10-09 00:07:50.063,=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024-10-09 00:08:11.129,C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\main.pas=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024-10-09 00:08:11.129,C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\main.fmx=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024-10-09 00:09:21.305,C:\WORK\PROJECTS\DELPHI\TESTS\Pong_Game\main.pas=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\main.pas</Transaction>
+    <Transaction>2024-10-09 00:09:21.305,C:\WORK\PROJECTS\DELPHI\TESTS\Pong_Game\main.fmx=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\main.fmx</Transaction>
+    <Transaction>2024-10-09 00:09:36.680,C:\WORK\PROJECTS\DELPHI\TESTS\Pong_Game\Pong_Game.dproj=C:\Users\Krystian\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android64="77398d6b" Android="77398d6b"/>
+	</ActiveMobileDevice>
+</BorlandProject>
