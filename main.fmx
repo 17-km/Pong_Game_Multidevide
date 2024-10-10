@@ -1,11 +1,55 @@
-object Form1: TForm1
+object fMain: TfMain
   Left = 0
   Top = 0
-  Caption = 'Form1'
-  ClientHeight = 480
-  ClientWidth = 640
+  Caption = 'Pong Game'
+  ClientHeight = 769
+  ClientWidth = 1132
+  WindowState = wsMaximized
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
+  FullScreen = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnResize = FormResize
   DesignerMasterStyle = 0
+  object lMain: TLayout
+    Align = Client
+    Size.Width = 1132.000000000000000000
+    Size.Height = 769.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object pMain: TPanel
+    Touch.GestureManager = gmMain
+    OnGesture = pMainGesture
+    Opacity = 0.000000000000000000
+    Position.X = 321.000000000000000000
+    Position.Y = 151.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 130.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object gmMain: TGestureManager
+    Sensitivity = 100.000000000000000000
+    Left = 168
+    Top = 304
+    GestureData = <
+      item
+        Control = pMain
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end>
+  end
+  object gmPaddle: TGestureManager
+    Sensitivity = 100.000000000000000000
+    Left = 584
+    Top = 464
+  end
 end

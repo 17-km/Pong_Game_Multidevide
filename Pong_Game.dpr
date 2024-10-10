@@ -3,12 +3,13 @@ program Pong_Game;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  main in 'main.pas' {Form1};
+  main in 'main.pas' {fMain};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
+  Application.FormFactor.Orientations := [TFormOrientation.Landscape];
+  Application.CreateForm(TfMain, fMain);
   Application.Run;
 end.

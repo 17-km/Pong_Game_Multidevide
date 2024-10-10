@@ -1,0 +1,26 @@
+inherited fMain_LgXhdpiPh: TfMain_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited lMain: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+  end
+  inherited pMain: TPanel
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+  end
+  inherited gmMain: TGestureManager
+    GestureData = <
+      item
+        Control = pMain
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end>
+  end
+end
